@@ -28,7 +28,7 @@ jobs:
       # Build a React js
       - name: Build a React js
         run: |
-             apt install npm
+              install npm
               npm run build
   test:
      # The type of runner that the job will run on
